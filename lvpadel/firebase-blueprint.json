@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/google/ai-studio-agent-skills/main/skills/system_skills/firebase-skill/blueprint-schema.json",
+  "collections": [
+    {
+      "name": "users",
+      "documentId": "uid",
+      "fields": [
+        { "name": "uid", "type": "string" },
+        { "name": "email", "type": "string" },
+        { "name": "displayName", "type": "string" },
+        { "name": "photoURL", "type": "string" },
+        { "name": "rating", "type": "number" }
+      ]
+    },
+    {
+      "name": "matches",
+      "documentId": "id",
+      "fields": [
+        { "name": "id", "type": "string" },
+        { "name": "date", "type": "string" },
+        { "name": "time", "type": "string" },
+        { "name": "location", "type": "string" },
+        { "name": "level", "type": "string" },
+        { "name": "creatorId", "type": "string" },
+        { "name": "maxPlayers", "type": "number" }
+      ]
+    }
+  ]
+}

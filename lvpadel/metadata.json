@@ -1,0 +1,6 @@
+{
+  "name": "LVPadel",
+  "description": "Приложение для падл-тенниса: бронирование кортов, поиск партнеров, турниры и аналитика.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
